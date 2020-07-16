@@ -1,7 +1,10 @@
-#Thu Jul 16 12:26:08 BRT 2020
+#Thu Jul 16 12:40:35 BRT 2020
 base.2=C\:\\Users\\Adm\\Desktop\\Projetos\\ReactNative\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
 base.1=C\:\\Users\\Adm\\Desktop\\Projetos\\ReactNative\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=C\:\\Users\\Adm\\Desktop\\Projetos\\ReactNative\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+renamed.20=classes21.dex
+path.20=classes_17.dex
+base.20=C\:\\Users\\Adm\\Desktop\\Projetos\\ReactNative\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_17.dex
 path.9=classes_14.dex
 path.8=classes_13.dex
 path.7=classes_12.dex
