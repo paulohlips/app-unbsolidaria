@@ -142,14 +142,14 @@ export default class Signup extends Component {
         whatsapp: userTel,
         password: userPassConfirmed,
         address: userAddress,
-        birth_date: userBirth,
-        linkUnb,
-        type: linkUnb,
-        risk_group: riskGroup.toString(),
         user_location: '',
+        birth_date: userBirth,
+        link_unb: linkUnb,
+        risk_group: riskGroup.toString(),
         matricula_unb: matriculaUnb,
+        type: linkUnb,
       });
-
+      
       Alert.alert(
         'Atenção',
         'Usuário cadastrado com sucesso!',

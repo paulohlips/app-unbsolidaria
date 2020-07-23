@@ -434,6 +434,15 @@ class Home extends Component {
               </Card>
             </BottomCards>
 
+            <BottomCards>
+             
+           <Card onPress={() => this.handleNavigateToOrientation()}> 
+                <Image source={require('../../assets/images/risk.png')} />
+                <Text> Leia para caso de emergência </Text>
+              </Card>
+            </BottomCards>
+
+
             <LogoutView>
               {userData.volunteer_id ? (
                 <VolunteerButton
