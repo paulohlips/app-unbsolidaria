@@ -86,26 +86,54 @@ class Volunteer extends Component {
       specialty,
       administrative_region: administrativeRegion,
       activities,
-      user_location: ' ',
+      user_location: ' GPS',
       is_sick: false,
     };
-    try {
-      const response = await api.post('volunteers', body, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-      Alert.alert(
-        'Voluntário cadastrado',
-        'Obrigado por se voluntariar a ajudar o próximo!',
-        [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
-        { cancelable: false }
-      );
-      this.setState({ loading: false });
-    } catch (error) {
-      console.log(error);
-      this.setState({ loading: false });
-    }
+
+      // const response =  await api.post('/volunteers', body,
+  //   {headers:{Authorization: `Bearer ${token}`}})
+  //   .then(function (response) {      
+  //    Alert.alert(
+  //      'Voluntário cadastrado',
+  //      'Obrigado por se voluntariar a ajudar o próximo!',
+  //      [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
+  //      { cancelable: false }
+  //     );
+  //   })
+  //   .catch(function (error) {
+  //     console.log("\n ERRO!!!!\n",error, response);
+  //     Alert.alert('Falha: ', error.message );
+  //   });
+
+ try {
+   const response = await api.post('/volunteers', body,
+   {headers:{Authorization: `Bearer ${token}`}})
+   Alert.alert(
+    'Voluntário cadastrado',
+    'Obrigado por se voluntariar a ajudar o próximo!',
+    [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
+    { cancelable: false }
+   );
+   this.setState({ loading: false });
+    console.log(response);
+ } catch (error) {
+  console.log("\n ERRO!!!!\n",error);
+  
+  this.setState({ loading: false });
+  if (error.message == "Request failed with status code 400"){
+    Alert.alert(" Todos os campos são obrigatórios! " );
+  }
+  if (error.message == "Request failed with status code 422"){
+    Alert.alert(" Usuário já é voluntário! " );
+  }
+  if (error.message == "Request failed with status code 401"){
+    Alert.alert(" Token inválido! " );
+  }
+  // else{
+  //   Alert.alert(" Em manutenção, volte depois! ");
+  // }
+ }
+  
   };
 
   render() {

@@ -450,9 +450,9 @@ class Home extends Component {
                     this.setState({ exitVolunteer: true });
                   }}
                 >
-                  <VolunteerButtonText>
+                  {/* <VolunteerButtonText>
                     Deixar de ser voluntário
-                  </VolunteerButtonText>
+                  </VolunteerButtonText> */}
                 </VolunteerButton>
               ) : null}
               <LogoutButton

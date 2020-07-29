@@ -1,4 +1,4 @@
-#Thu Jul 23 17:23:16 BRT 2020
+#Wed Jul 29 14:41:09 BRT 2020
 base.2=C\:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
 base.1=C\:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=C\:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

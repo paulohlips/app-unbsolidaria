@@ -264,9 +264,7 @@ class Main extends Component {
                       )}
                     <RememberText>Lembrar-me</RememberText>
                   </RememberButton>
-                  <ForgotPassword onPress={() => { }}>
-                    <PasswordText>Esqueceu sua senha?</PasswordText>
-                  </ForgotPassword>
+                 
                 </OptionsView>
                 <ButtonLogin loading={loading} onPress={this.handleLoginReset}>
                   {loading ? (
@@ -339,9 +337,9 @@ class Main extends Component {
                         )}
                       <RememberText>Lembrar-me</RememberText>
                     </RememberButton>
-                    <ForgotPassword onPress={() => { }}>
+                    {/* <ForgotPassword onPress={() => { }}>
                       <PasswordText>Esqueceu sua senha?</PasswordText>
-                    </ForgotPassword>
+                    </ForgotPassword> */}
                   </OptionsView>
                   <ButtonLogin loading={loading} onPress={this.handleLogin}>
                     {loading ? (

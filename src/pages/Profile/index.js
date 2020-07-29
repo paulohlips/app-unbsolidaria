@@ -69,10 +69,11 @@ class Profile extends Component {
         },
       }
     );
-
+    
     this.setState({ data: response.data });
 
     BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
+    
   }
 
   componentWillUnmount() {
@@ -92,11 +93,11 @@ class Profile extends Component {
 
   handleAvaliation = async () => {
     const { userComment, rating } = this.state;
-    const { userData, token } = this.props;
+    const { userData, token, route } = this.props;
 
     if (userComment !== '') {
       const body = {
-        volunteer_id: userData.volunteer_id,
+        volunteer_id: route.params.perfil.id,
         comment: userComment,
       };
       const response = await api.post(`comments`, body, {
@@ -170,7 +171,7 @@ class Profile extends Component {
     return (
       <Container>
         <Card>
-          <Info>
+          <Info>  
             <Image source={require('../../assets/images/placeholder.png')} />
             <TextContainer>
               <TitleCard>{params.perfil.name}</TitleCard>
@@ -221,7 +222,7 @@ class Profile extends Component {
         </Avaliation>
 
         <Title>AVALIAÇÕES ANTERIORES:</Title>
-        <ChatButton />
+        {/* <ChatButton /> */}
         <Opinion>
           {data
             ? data.map((comments) => (
@@ -231,7 +232,7 @@ class Profile extends Component {
             ))
             : null}
         </Opinion>
-        <ChatButton
+        {/* <ChatButton
           onPress={() => {
             this.handleChat(params.perfil);
           }}
@@ -241,7 +242,7 @@ class Profile extends Component {
           ) : (
               <Icon name="chat" size={29} color={colors.white} />
             )}
-        </ChatButton>
+        </ChatButton> */}
       </Container>
     );
   }

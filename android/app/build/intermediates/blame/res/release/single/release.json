@@ -21,7 +21,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_amu_bubble_mask.9.png.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_mask.9.png"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_mask.9.png"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_mtrl_picker_fullscreen.xml.flat",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_amu_text_bubble.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\layout\\amu_text_bubble.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\layout\\amu_text_bubble.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_ballon_gx_prefix.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ballon_gx_prefix.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ballon_gx_prefix.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\color_abc_hint_foreground_material_dark.xml.flat",
@@ -249,7 +249,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_cdata.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_cdata.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_cdata.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -437,7 +437,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_nested_folders.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_folders.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_folders.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
@@ -709,7 +709,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_basic_folder.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_folder.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_folder.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_btn_radio_material.xml.flat",
@@ -769,7 +769,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_redbox_view.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\layout\\redbox_view.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\layout\\redbox_view.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -821,7 +821,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_multiple_placemarks.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multiple_placemarks.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multiple_placemarks.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_test_toolbar_elevation.xml.flat",
@@ -837,7 +837,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_redbox_item_title.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\layout\\redbox_item_title.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\layout\\redbox_item_title.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
@@ -865,7 +865,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_basic_placemark.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_placemark.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_basic_placemark.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
@@ -1045,7 +1045,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_amu_webview.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\layout\\amu_webview.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\layout\\amu_webview.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
@@ -1097,7 +1097,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_inline_style.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_inline_style.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_inline_style.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
@@ -1161,7 +1161,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_fade_in.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_fade_in.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_logo.png.flat",
@@ -1169,7 +1169,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_redbox_top_border_background.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\drawable\\redbox_top_border_background.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\drawable\\redbox_top_border_background.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\animator_mtrl_extended_fab_state_list_animator.xml.flat",
@@ -1261,7 +1261,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_slide_up.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_slide_up.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_slide_up.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_menu_item.xml.flat",
@@ -1321,7 +1321,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_redbox_item_frame.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\layout\\redbox_item_frame.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\layout\\redbox_item_frame.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1389,7 +1389,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_push_up_out.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_push_up_out.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\color_material_on_surface_emphasis_high_type.xml.flat",
@@ -1509,7 +1509,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_poly_style_boolean_numeric.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_numeric.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_numeric.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1553,7 +1553,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_unsupported.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unsupported.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unsupported.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1597,11 +1597,11 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_fade_out.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_fade_out.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_default_balloon.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_default_balloon.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_default_balloon.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1617,7 +1617,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_reception.png.flat",
@@ -1693,7 +1693,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_nested_multigeometry.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_multigeometry.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_nested_multigeometry.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -1713,7 +1713,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_fps_view.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\layout\\fps_view.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\layout\\fps_view.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_radio_off_mtrl.xml.flat",
@@ -1745,7 +1745,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_amu_bubble_mask.9.png.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -1805,7 +1805,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_visibility_ground_overlay.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_visibility_ground_overlay.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_visibility_ground_overlay.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -1889,7 +1889,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_slide_down.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_slide_down.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_slide_down.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1905,7 +1905,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\drawable-xhdpi-v4\\amu_bubble_shadow.9.png"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2021,7 +2021,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_multigeometry_placemarks.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multigeometry_placemarks.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_multigeometry_placemarks.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
@@ -2213,7 +2213,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_ground_overlay.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_popup_enter.xml.flat",
@@ -2241,7 +2241,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_unknwown_folder.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unknwown_folder.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_unknwown_folder.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2313,7 +2313,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_extended_data.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_extended_data.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_extended_data.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -2361,7 +2361,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_document_nest.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_document_nest.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_document_nest.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\animator_design_fab_show_motion_spec.xml.flat",
@@ -2493,7 +2493,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_ground_overlay_color.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay_color.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_ground_overlay_color.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -2510,6 +2510,10 @@
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1cb9b9ea592aa2ea85233be252327dcf\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -2557,7 +2561,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_dev_loading_view.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\layout\\dev_loading_view.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\layout\\dev_loading_view.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_mtrl_chip_checked_black.xml.flat",
@@ -2717,7 +2721,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_catalyst_push_up_in.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\anim\\catalyst_push_up_in.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_src_assets_animations_stayptbr.json.flat",
@@ -2729,7 +2733,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_poly_style_boolean_alpha.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_alpha.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_poly_style_boolean_alpha.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -2809,7 +2813,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_amu_draw_order_ground_overlay.kml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\raw\\amu_draw_order_ground_overlay.kml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\raw\\amu_draw_order_ground_overlay.kml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
@@ -2909,7 +2913,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\xml_rn_dev_preferences.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\506cafbfbb15769bc6b339c17531f7dd\\jetified-react-native-0.63.1\\res\\xml\\rn_dev_preferences.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\72fdf947ca42964e795a519cacc38dd6\\jetified-react-native-0.63.1\\res\\xml\\rn_dev_preferences.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_action_menu_item_layout.xml.flat",
@@ -2953,7 +2957,7 @@
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_amu_info_window.xml.flat",
-        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1286500cb70a2619e19e7f3163268368\\jetified-android-maps-utils-0.5\\res\\layout\\amu_info_window.xml"
+        "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\cc4063a60a6b3cafa3f77d931b00e363\\jetified-android-maps-utils-0.5\\res\\layout\\amu_info_window.xml"
     },
     {
         "merged": "C:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",

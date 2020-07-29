@@ -1,4 +1,4 @@
-#Thu Jul 23 18:23:52 BRT 2020
+#Wed Jul 29 19:45:35 BRT 2020
 base.0=C\:\\Users\\natma\\Projetos\\app-unbsolidaria\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
