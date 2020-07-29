@@ -105,6 +105,8 @@ class Volunteer extends Component {
     } catch (error) {
       console.log(error);
       this.setState({ loading: false });
+      Alert.alert('Falha no cadastro', 'Verifique os dados informados');
+
     }
   };
 
