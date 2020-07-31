@@ -21,28 +21,7 @@
                     }
                 },
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\bf54aacc1993686cb3789d4877cddf04\\jetified-play-services-basement-17.0.0\\res\\values-de\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "203",
-                        "endOffsets": "450"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4052",
-                        "endColumns": "203",
-                        "endOffsets": "4251"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\fc8046cb9a5df9499609a5f7f8270b1b\\play-services-base-17.0.0\\res\\values-de\\values.xml",
-=======
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/res/values-de/values-de.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -59,9 +38,6 @@
                     }
                 },
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\639e914bfc1efa21e36199d3ff2c5eef\\core-1.1.0\\res\\values-de\\values-de.xml",
-=======
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/90afe49b736844f74ad536b32cbdc529/jetified-play-services-basement-17.0.0/res/values-de/values.xml",
                     "from": {
                         "startLines": "4",
@@ -80,7 +56,6 @@
                 },
                 {
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/res/values-de/values.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

@@ -2,7 +2,7 @@
 /* eslint-disable react/static-property-placement */
 /* eslint-disable global-require */
 /* eslint-disable react/state-in-constructor */
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
   ActivityIndicator,
   ScrollView,
@@ -13,11 +13,12 @@ import {
   Alert,
   View,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+//import  from 'react-native-vector-icons/MaterialIcons'
 // import { Avatar, Card, Title, Paragraph } from 'react-native-paper';
 import Lottie from 'lottie-react-native';
-import { Card, Title, Paragraph, Appbar, Button } from 'react-native-paper';
-import { Picker } from '@react-native-community/picker';
+import {Card, Title, Paragraph, Appbar, Button} from 'react-native-paper';
+import {Picker} from '@react-native-community/picker';
 import PropTypes from 'prop-types';
 import Loading from '../../assets/animations/loadingVolunteers.json';
 
@@ -47,10 +48,10 @@ import {
 
 import api from '../../services/api';
 
-import { colors } from '../../styles';
+import {colors} from '../../styles';
 
 const withZustand = (Comp) => (props) => {
-  const { token, userData } = useAuth();
+  const {token, userData} = useAuth();
   return <Comp {...props} token={token} userData={userData} />;
 };
 
@@ -68,14 +69,14 @@ class Solidary extends Component {
   };
 
   componentDidMount = async () => {
-    const { token, userData } = this.props;
+    const {token, userData} = this.props;
 
     const response = await api.get('volunteers', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
-    this.setState({ data: response.data, loading: false });
+    this.setState({data: response.data, loading: false});
     BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
   };
 
@@ -84,7 +85,7 @@ class Solidary extends Component {
   }
 
   handleBackButton = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
     navigation.navigate('Home');
     return true;
   };
@@ -109,22 +110,22 @@ class Solidary extends Component {
   };
 
   handleNavigateToProfile = (perfil) => {
-    const { navigation } = this.props;
-    navigation.navigate('Profile', { perfil });
+    const {navigation} = this.props;
+    navigation.navigate('Profile', {perfil});
   };
 
   sendwhatsapp = (profile) => {
     const message = `Olá ${profile.name}, ví que você se voluntariou para ${profile.activities} e gostaria da sua ajuda! Podemos falar a respeito?`;
 
     Linking.openURL(
-      `whatsapp://send?phone=${profile.whatsapp}&text=${message}`
+      `whatsapp://send?phone=${profile.whatsapp}&text=${message}`,
     );
   };
 
   filterByCity = async () => {
-    this.setState({ loading: true });
-    const { region } = this.state;
-    const { token } = this.props;
+    this.setState({loading: true});
+    const {region} = this.state;
+    const {token} = this.props;
 
     const response = await api.get(`volunteers?ra=${region}`, {
       headers: {
@@ -132,17 +133,17 @@ class Solidary extends Component {
       },
     });
 
-    this.setState({ data: response.data, loading: false });
+    this.setState({data: response.data, loading: false});
   };
 
   render() {
-    const { region, task, loading, data } = this.state;
-    const { navigation } = this.props;
+    const {region, task, loading, data} = this.state;
+    const {navigation} = this.props;
     const LeftContent = (props) => (
       <Avatar.Icon
         {...props}
         icon={require('../../assets/images/volunteer.png')}
-        style={{ backgroundColor: '#0039A6' }}
+        style={{backgroundColor: '#0039A6'}}
       />
     );
 
@@ -155,8 +156,7 @@ class Solidary extends Component {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'center',
-          }}
-        >
+          }}>
           <Button color="blue" onPress={() => navigation.navigate('ChatList')}>
             Meus chats
           </Button>
@@ -166,9 +166,8 @@ class Solidary extends Component {
           <PickerView>
             <Picker
               selectedValue={region}
-              onValueChange={(label) => this.setState({ region: label })}
-              style={{ backgroundColor: '#eee', borderRadius: 50 }}
-            >
+              onValueChange={(label) => this.setState({region: label})}
+              style={{backgroundColor: '#eee', borderRadius: 50}}>
               <Picker.Item label="Filtrar por Região Administrativa" value="" />
               <Picker.Item label="Plano Piloto" value="Plano Piloto" />
               <Picker.Item label="Águas Claras" value="Águas Claras" />
@@ -213,8 +212,8 @@ class Solidary extends Component {
             {loading ? (
               <ActivityIndicator color={colors.white} />
             ) : (
-                <VolunteerButtonText>Buscar Voluntários</VolunteerButtonText>
-              )}
+              <VolunteerButtonText>Buscar Voluntários</VolunteerButtonText>
+            )}
           </ButtonVolunteer>
         </Form>
         {loading ? (
@@ -225,10 +224,9 @@ class Solidary extends Component {
             {data.map((profile) =>
               !profile.is_sick ? (
                 <CardContainer
-                  onPress={() => this.handleNavigateToProfile(profile)}
-                >
+                  onPress={() => this.handleNavigateToProfile(profile)}>
                   <StarView>
-                    <Icon name="star" size={18} color="#fff" />
+                    <Icon name="grade" size={18} color="#fff" />
                     <StartText>{profile.rate}</StartText>
                   </StarView>
                   <CardContentTop>
@@ -244,7 +242,7 @@ class Solidary extends Component {
                   </CardContentBottom>
                   <RA>{profile.administrative_region}</RA>
                 </CardContainer>
-              ) : null
+              ) : null,
             )}
           </Scroll>
         ) : null}

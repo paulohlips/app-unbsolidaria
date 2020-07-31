@@ -55,11 +55,7 @@
                     }
                 },
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\bf54aacc1993686cb3789d4877cddf04\\jetified-play-services-basement-17.0.0\\res\\values-hr\\values.xml",
-=======
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/90afe49b736844f74ad536b32cbdc529/jetified-play-services-basement-17.0.0/res/values-hr/values.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

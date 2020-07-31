@@ -4,9 +4,6 @@
             "outputFile": "/home/paulo/developer/Amoris/app-unbsolidaria/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml",
             "map": [
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\bf54aacc1993686cb3789d4877cddf04\\jetified-play-services-basement-17.0.0\\res\\values-bn\\values.xml",
-=======
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/res/values-bn/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -25,7 +22,6 @@
                 },
                 {
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/90afe49b736844f74ad536b32cbdc529/jetified-play-services-basement-17.0.0/res/values-bn/values.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

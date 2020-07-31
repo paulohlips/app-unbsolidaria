@@ -1,10 +1,10 @@
 /* eslint-disable react/static-property-placement */
 /* eslint-disable global-require */
 /* eslint-disable react/state-in-constructor */
-import React, { Component } from 'react';
-import { ActivityIndicator, Alert, BackHandler } from 'react-native';
-import { TextInputMask } from 'react-native-masked-text';
-import { Picker } from '@react-native-community/picker';
+import React, {Component} from 'react';
+import {ActivityIndicator, Alert, BackHandler} from 'react-native';
+import {TextInputMask} from 'react-native-masked-text';
+import {Picker} from '@react-native-community/picker';
 import AwesomeAlert from 'react-native-awesome-alerts';
 import PropTypes from 'prop-types';
 import api from '../../services/api';
@@ -21,10 +21,10 @@ import {
   SimpleText,
 } from './styles';
 
-import { colors } from '../../styles';
+import {colors} from '../../styles';
 
 const withZustand = (Comp) => (props) => {
-  const { token, isSick, userData } = useAuth();
+  const {token, isSick, userData} = useAuth();
   return <Comp {...props} token={token} isSick={isSick} userData={userData} />;
 };
 
@@ -57,15 +57,15 @@ class Volunteer extends Component {
   }
 
   handleBackButton = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
     navigation.navigate('Home');
     return true;
   };
 
   handleSubmit = async () => {
-    const { userData } = this.props;
+    const {userData} = this.props;
 
-    this.setState({ loading: true });
+    this.setState({loading: true});
     const {
       userCPF,
       userNRP,
@@ -74,7 +74,7 @@ class Volunteer extends Component {
       administrativeRegion,
       activities,
     } = this.state;
-    const { navigation, token } = this.props;
+    const {navigation, token} = this.props;
 
     const body = {
       name: userData.name,
@@ -90,50 +90,47 @@ class Volunteer extends Component {
       is_sick: false,
     };
 
-      // const response =  await api.post('/volunteers', body,
-  //   {headers:{Authorization: `Bearer ${token}`}})
-  //   .then(function (response) {      
-  //    Alert.alert(
-  //      'Voluntário cadastrado',
-  //      'Obrigado por se voluntariar a ajudar o próximo!',
-  //      [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
-  //      { cancelable: false }
-  //     );
-  //   })
-  //   .catch(function (error) {
-  //     console.log("\n ERRO!!!!\n",error, response);
-  //     Alert.alert('Falha: ', error.message );
-  //   });
+    // const response =  await api.post('/volunteers', body,
+    //   {headers:{Authorization: `Bearer ${token}`}})
+    //   .then(function (response) {
+    //    Alert.alert(
+    //      'Voluntário cadastrado',
+    //      'Obrigado por se voluntariar a ajudar o próximo!',
+    //      [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
+    //      { cancelable: false }
+    //     );
+    //   })
+    //   .catch(function (error) {
+    //     console.log("\n ERRO!!!!\n",error, response);
+    //     Alert.alert('Falha: ', error.message );
+    //   });
 
- try {
-   const response = await api.post('/volunteers', body,
-   {headers:{Authorization: `Bearer ${token}`}})
-   Alert.alert(
-    'Voluntário cadastrado',
-    'Obrigado por se voluntariar a ajudar o próximo!',
-    [{ text: 'OK', onPress: () => navigation.navigate('Home') }],
-    { cancelable: false }
-   );
-   this.setState({ loading: false });
-    console.log(response);
- } catch (error) {
-  console.log("\n ERRO!!!!\n",error);
-  
-  this.setState({ loading: false });
-  if (error.message == "Request failed with status code 400"){
-    Alert.alert(" Todos os campos são obrigatórios! " );
-  }
-  if (error.message == "Request failed with status code 422"){
-    Alert.alert(" Usuário já é voluntário! " );
-  }
-  if (error.message == "Request failed with status code 401"){
-    Alert.alert(" Token inválido! " );
-  }
-  // else{
-  //   Alert.alert(" Em manutenção, volte depois! ");
-  // }
- }
-  
+    try {
+      const response = await api.post('/volunteers', body, {
+        headers: {Authorization: `Bearer ${token}`},
+      });
+      Alert.alert(
+        'Voluntário cadastrado',
+        'Obrigado por se voluntariar a ajudar o próximo!',
+        [{text: 'OK', onPress: () => navigation.navigate('Home')}],
+        {cancelable: false},
+      );
+      this.setState({loading: false});
+    } catch (error) {
+      this.setState({loading: false});
+      if (error.message == 'Request failed with status code 400') {
+        Alert.alert(' Todos os campos são obrigatórios! ');
+      }
+      if (error.message == 'Request failed with status code 422') {
+        Alert.alert(' Usuário já é voluntário! ');
+      }
+      if (error.message == 'Request failed with status code 401') {
+        Alert.alert(' Token inválido! ');
+      }
+      // else{
+      //   Alert.alert(" Em manutenção, volte depois! ");
+      // }
+    }
   };
 
   render() {
@@ -174,14 +171,14 @@ class Volunteer extends Component {
             placeholder="CPF"
             placeholderTextColor="#000"
             value={userCPF}
-            onChangeText={(text) => this.setState({ userCPF: text })}
+            onChangeText={(text) => this.setState({userCPF: text})}
           />
           <Input
             autoCorrect={false}
             autoCapitalize="none"
             placeholder="Unidade da Federação"
             value={uf}
-            onChangeText={(text) => this.setState({ uf: text })}
+            onChangeText={(text) => this.setState({uf: text})}
           />
           <Input
             autoCorrect={false}
@@ -189,29 +186,28 @@ class Volunteer extends Component {
             placeholder="N Registro Profissional"
             keyboardType="numeric"
             value={userNRP}
-            onChangeText={(text) => this.setState({ userNRP: text })}
+            onChangeText={(text) => this.setState({userNRP: text})}
           />
           <Input
             autoCorrect={false}
             autoCapitalize="none"
             placeholder="Especialidade"
             value={specialty}
-            onChangeText={(text) => this.setState({ specialty: text })}
+            onChangeText={(text) => this.setState({specialty: text})}
           />
           <Input
             autoCorrect={false}
             autoCapitalize="none"
             placeholder="Atividades voluntárias"
             value={activities}
-            onChangeText={(text) => this.setState({ activities: text })}
+            onChangeText={(text) => this.setState({activities: text})}
           />
           <PickerView>
             <Picker
               selectedValue={administrativeRegion}
               onValueChange={(label) =>
-                this.setState({ administrativeRegion: label })
-              }
-            >
+                this.setState({administrativeRegion: label})
+              }>
               <Picker.Item label="Sua Região Administrativa" value="" />
               <Picker.Item label="Plano Piloto" value="Plano Piloto" />
               <Picker.Item label="Águas Claras" value="Águas Claras" />
@@ -257,8 +253,8 @@ class Volunteer extends Component {
             {loading ? (
               <ActivityIndicator color={colors.white} />
             ) : (
-                <VolunteerButtonText>CANDIDATAR-SE</VolunteerButtonText>
-              )}
+              <VolunteerButtonText>CANDIDATAR-SE</VolunteerButtonText>
+            )}
           </ButtonVolunteer>
         </Form>
       </Container>

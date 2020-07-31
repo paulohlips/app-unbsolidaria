@@ -38,26 +38,6 @@
                     }
                 },
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\639e914bfc1efa21e36199d3ff2c5eef\\core-1.1.0\\res\\values-bg\\values-bg.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5733",
-                        "endColumns": "100",
-                        "endOffsets": "5829"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\1cb9b9ea592aa2ea85233be252327dcf\\appcompat-1.1.0\\res\\values-bg\\values-bg.xml",
-=======
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/90afe49b736844f74ad536b32cbdc529/jetified-play-services-basement-17.0.0/res/values-bg/values.xml",
                     "from": {
                         "startLines": "4",
@@ -76,7 +56,6 @@
                 },
                 {
                     "source": "/home/paulo/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/res/values-bg/values-bg.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -90,23 +69,6 @@
                         "startOffsets": "5733",
                         "endColumns": "100",
                         "endOffsets": "5829"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\natma\\.gradle\\caches\\transforms-2\\files-2.1\\bf54aacc1993686cb3789d4877cddf04\\jetified-play-services-basement-17.0.0\\res\\values-bg\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "196",
-                        "endOffsets": "443"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4062",
-                        "endColumns": "196",
-                        "endOffsets": "4254"
                     }
                 }
             ]

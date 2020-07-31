@@ -2,20 +2,20 @@
 /* eslint-disable react/state-in-constructor */
 /* eslint-disable react/static-property-placement */
 /* eslint-disable global-require */
-import React, { Component } from 'react';
-import { Modal, BackHandler, StatusBar, ScrollView } from 'react-native';
+import React, {Component} from 'react';
+import {Modal, BackHandler, StatusBar, ScrollView} from 'react-native';
 import PropTypes from 'prop-types';
 import AsyncStorage from '@react-native-community/async-storage';
 import Geolocation from '@react-native-community/geolocation';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import AwesomeAlert from 'react-native-awesome-alerts';
 import Lottie from 'lottie-react-native';
-import { RadioButton } from 'react-native-paper';
+import {RadioButton} from 'react-native-paper';
 import leave from '../../assets/animations/leave.json';
 import stay from '../../assets/animations/stayPTBR.json';
 import question from '../../assets/animations/question.json';
 import useAuth from '../../store';
-import { colors } from '../../styles';
+import {colors} from '../../styles';
 import {
   titleMargin,
   altura_tela,
@@ -109,13 +109,13 @@ class Home extends Component {
     const checkedAsync = await AsyncStorage.getItem('checked');
 
     if (checkedAsync) {
-      this.setState({ checked: checkedAsync });
+      this.setState({checked: checkedAsync});
     } else {
-      this.setState({ checked: 'second' });
+      this.setState({checked: 'second'});
     }
 
     await Geolocation.getCurrentPosition(
-      ({ coords: { latitude, longitude } }) => {
+      ({coords: {latitude, longitude}}) => {
         this.setState({
           mapAvaible: false,
           region: {
@@ -141,7 +141,7 @@ class Home extends Component {
         timeout: 5000,
         enableHighAccuracy: false,
         maximumAge: 1000,
-      }
+      },
     );
     BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
   }
@@ -151,21 +151,21 @@ class Home extends Component {
   }
 
   handleYes = async () => {
-    const { userData, token } = this.props;
+    const {userData, token} = this.props;
 
-    const body = { email: userData.email, is_sick: true };
+    const body = {email: userData.email, is_sick: true};
     const response = await api.put('volunteers', body, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
     AsyncStorage.setItem('checked', 'first');
-    this.setState({ showAlert: true });
+    this.setState({showAlert: true});
   };
 
   handleNo = async () => {
-    const { userData, token } = this.props;
-    const body = { email: userData.email, is_sick: false };
+    const {userData, token} = this.props;
+    const body = {email: userData.email, is_sick: false};
     const response = await api.put('volunteers', body, {
       headers: {
         Authorization: `Bearer ${token}`,
@@ -181,73 +181,73 @@ class Home extends Component {
   };
 
   handleNavigateToHelp = () => {
-    const { region } = this.state;
-    const { navigation } = this.props;
+    const {region} = this.state;
+    const {navigation} = this.props;
 
-    navigation.navigate('HelpRequest', { region });
+    navigation.navigate('HelpRequest', {region});
   };
 
-  handleNavigateToChat = () => {
+  /*   handleNavigateToChat = () => {
     const { navigation } = this.props;
 
     navigation.navigate('ChatList');
-  };
+  }; */
 
   handleNavigateToQuestions = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('Questions');
   };
 
   handleNavigateToSolidary = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('Solidary');
   };
 
   handleNavigateToTalk = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('Talk');
   };
 
   handleNavigateToVolunteer = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('Volunteer');
   };
 
   handleNavigateToOrientation = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('Orientation');
   };
 
   handleNavigateToMyOrientation = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('MyOrientation');
   };
 
   handleNavigateToNewOrientation = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
 
     navigation.navigate('NewOrientation');
   };
 
   handleLogout = async () => {
-    const { navigation } = this.props;
-    const { reset } = this.state;
+    const {navigation} = this.props;
+    const {reset} = this.state;
 
-    this.setState({ reset: true });
+    this.setState({reset: true});
     await AsyncStorage.clear();
 
-    navigation.navigate('Main', { reset: true });
+    navigation.navigate('Main', {reset: true});
   };
 
   handleLeaveVolunteer = async () => {
-    const { userData, token } = this.props;
-    const body = { email: userData.email, quit: true };
+    const {userData, token} = this.props;
+    const body = {email: userData.email, quit: true};
     const response = await api.put('quitVolunteer', body, {
       headers: {
         Authorization: `Bearer ${token}`,
@@ -256,7 +256,7 @@ class Home extends Component {
   };
 
   handleBackButton = () => {
-    this.setState({ modalLogout: true });
+    this.setState({modalLogout: true});
     return true;
   };
 
@@ -269,34 +269,31 @@ class Home extends Component {
       showAnimation,
       exitVolunteer,
     } = this.state;
-    const { userData } = this.props;
+    const {userData} = this.props;
 
     return (
       <>
         <StatusBar barStyle="light-content" backgroundColor="#0039A6" />
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <Container>
+        <Container>
+          <ScrollView showsVerticalScrollIndicator={false}>
             <Modal
               animationType="fade"
               transparent
               visible={modalLogout}
-              onRequestClose={() => this.setState({ modalLogout: false })}
-            >
+              onRequestClose={() => this.setState({modalLogout: false})}>
               <ModalContainer>
                 <ModalView>
                   <ModalText>Deseja realmente sair?</ModalText>
                   <RowView>
                     <ModalButtonCancel
-                      onPress={() => this.setState({ modalLogout: false })}
-                    >
+                      onPress={() => this.setState({modalLogout: false})}>
                       <ModalButtonText>Cancelar</ModalButtonText>
                     </ModalButtonCancel>
                     <ModalButtonSair
                       onPress={() => {
-                        this.setState({ modalLogout: false });
+                        this.setState({modalLogout: false});
                         this.handleLogout();
-                      }}
-                    >
+                      }}>
                       <ModalButtonTextSair>Sair</ModalButtonTextSair>
                     </ModalButtonSair>
                   </RowView>
@@ -310,8 +307,7 @@ class Home extends Component {
               animationType="fade"
               transparent
               visible={exitVolunteer}
-              onRequestClose={() => this.setState({ exitVolunteer: false })}
-            >
+              onRequestClose={() => this.setState({exitVolunteer: false})}>
               <ModalContainer>
                 <ModalView>
                   <ModalTextVolunteer>
@@ -319,16 +315,14 @@ class Home extends Component {
                   </ModalTextVolunteer>
                   <RowView>
                     <ModalButtonCancel
-                      onPress={() => this.setState({ exitVolunteer: false })}
-                    >
+                      onPress={() => this.setState({exitVolunteer: false})}>
                       <ModalButtonText>Cancelar</ModalButtonText>
                     </ModalButtonCancel>
                     <ModalButtonSairVolunteer
                       onPress={() => {
-                        this.setState({ exitVolunteer: false });
+                        this.setState({exitVolunteer: false});
                         this.handleLeaveVolunteer();
-                      }}
-                    >
+                      }}>
                       <ModalButtonTextSair>Sim</ModalButtonTextSair>
                     </ModalButtonSairVolunteer>
                   </RowView>
@@ -358,24 +352,24 @@ class Home extends Component {
                     place
                     status={checked === 'first' ? 'checked' : 'unchecked'}
                     onPress={() => {
-                      this.setState({ checked: 'first' });
+                      this.setState({checked: 'first'});
                       this.handleYes();
                     }}
                     color={colors.headerBlue}
                   />
-                  <RadioText>Sim, estou com sintomas.</RadioText>
+                  <RadioText>Sim, estou com sintomas</RadioText>
                 </ViewButtonYes>
                 <ViewButtonNo>
                   <RadioButton
                     value="second"
                     status={checked === 'second' ? 'checked' : 'unchecked'}
                     onPress={() => {
-                      this.setState({ checked: 'second' });
+                      this.setState({checked: 'second'});
                       this.handleNo();
                     }}
                     color={colors.headerBlue}
                   />
-                  <RadioText>Não, estou bem.</RadioText>
+                  <RadioText>Não estou com sintomas</RadioText>
                 </ViewButtonNo>
               </ViewButtons>
             </SelectionView>
@@ -396,7 +390,7 @@ class Home extends Component {
                 elevation: 20,
                 backgroundColor: 'rgba(255, 255, 255, 0.1)',
               }}
-              messageStyle={{ color: '#000' }}
+              messageStyle={{color: '#000'}}
             />
             <TopCards>
               <Card onPress={() => this.handleNavigateToSolidary()}>
@@ -417,9 +411,9 @@ class Home extends Component {
                 />
                 <Text>Dúvidas</Text>
               </Card>
-              <Card onPress={() => this.handleNavigateToChat()}>
-                <Image source={require('../../assets/images/chat.png')} />
-                <Text>Chat</Text>
+              <Card onPress={() => this.handleNavigateToOrientation()}>
+                <Image source={require('../../assets/images/police-car.png')} />
+                <Text> Segurança do Campus </Text>
               </Card>
             </MiddleCards>
 
@@ -434,35 +428,29 @@ class Home extends Component {
               </Card>
             </BottomCards>
 
-            <BottomCards>
-             
-           <Card onPress={() => this.handleNavigateToOrientation()}> 
+            {/*            <BottomCards>
+              <Card onPress={() => this.handleNavigateToOrientation()}>
                 <Image source={require('../../assets/images/risk.png')} />
-                <Text> Leia para caso de emergência </Text>
+                <Text> Segurança do Campus </Text>
               </Card>
-            </BottomCards>
-
-
-            <LogoutView>
-              {userData.volunteer_id ? (
-                <VolunteerButton
-                  onPress={() => {
-                    this.setState({ exitVolunteer: true });
-                  }}
-                >
-                  {/* <VolunteerButtonText>
+            </BottomCards> */}
+          </ScrollView>
+          <LogoutView>
+            {userData.volunteer_id ? (
+              <VolunteerButton
+                onPress={() => {
+                  this.setState({exitVolunteer: true});
+                }}>
+                {/* <VolunteerButtonText>
                     Deixar de ser voluntário
                   </VolunteerButtonText> */}
-                </VolunteerButton>
-              ) : null}
-              <LogoutButton
-                onPress={() => this.setState({ modalLogout: true })}
-              >
-                <Icon name="exit-to-app" size={33} color={colors.white} />
-              </LogoutButton>
-            </LogoutView>
-          </Container>
-        </ScrollView>
+              </VolunteerButton>
+            ) : null}
+            <LogoutButton onPress={() => this.setState({modalLogout: true})}>
+              <Icon name="exit-to-app" size={33} color={colors.white} />
+            </LogoutButton>
+          </LogoutView>
+        </Container>
       </>
     );
   }

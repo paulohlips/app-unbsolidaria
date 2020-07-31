@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
-import { RectButton } from 'react-native-gesture-handler';
-import { RadioButton } from 'react-native-paper';
+import {RectButton} from 'react-native-gesture-handler';
+import {RadioButton} from 'react-native-paper';
 import normalize from 'react-native-normalize';
 import {
   cardHeight,
@@ -84,7 +84,8 @@ export const QuestionText = styled.Text`
 `;
 
 export const ViewButtons = styled.View`
-  flex-direction: row;
+  /* flex-direction: row;
+ */
 `;
 
 export const ViewButtonYes = styled.View`
