@@ -1,19 +1,14 @@
 /* eslint-disable react/prop-types */
-import React, { Component } from 'react';
-import { Rating, AirbnbRating } from 'react-native-ratings';
-import {
-  BackHandler,
-  Alert,
-  ActivityIndicator,
-  ScrollView,
-} from 'react-native';
+import React, {Component} from 'react';
+import {Rating, AirbnbRating} from 'react-native-ratings';
+import {BackHandler, Alert, ActivityIndicator, ScrollView} from 'react-native';
 import normalize from 'react-native-normalize';
-import { nanoid } from 'nanoid/non-secure';
+import {nanoid} from 'nanoid/non-secure';
 import firestore from '@react-native-firebase/firestore';
 
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { colors } from '../../styles';
+import {colors} from '../../styles';
 import {
   Container,
   Card,
@@ -46,7 +41,7 @@ import useAuth from '../../store';
 import api from '../../services/api';
 
 const withZustand = (Comp) => (props) => {
-  const { token, userData } = useAuth();
+  const {token, userData} = useAuth();
   return <Comp {...props} token={token} userData={userData} />;
 };
 
@@ -58,22 +53,21 @@ class Profile extends Component {
   };
 
   async componentDidMount() {
-    const { userData, token } = this.props;
+    const {userData, token} = this.props;
 
-    const body = { volunteer_id: userData.volunteer_id };
+    const body = {volunteer_id: userData.volunteer_id};
     const response = await api.get(
       `comments/${this.props.route.params.perfil.id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
         },
-      }
+      },
     );
-    
-    this.setState({ data: response.data });
+
+    this.setState({data: response.data});
 
     BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
-    
   }
 
   componentWillUnmount() {
@@ -81,26 +75,26 @@ class Profile extends Component {
   }
 
   handleBackButton = () => {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
     navigation.navigate('Solidary');
     return true;
   };
 
   ratingCompleted = (rating) => {
     // console.tron.log(`Rating is: ${rating}`);
-    this.setState({ rating });
+    this.setState({rating});
   };
 
   handleAvaliation = async () => {
-    const { userComment, rating } = this.state;
-    const { userData, token, route } = this.props;
+    const {userComment, rating} = this.state;
+    const {userData, token, route} = this.props;
 
     if (userComment !== '') {
       const body = {
         volunteer_id: route.params.perfil.id,
         comment: userComment,
       };
-      const response = await api.post(`comments`, body, {
+      const response = await api.post('comments', body, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -108,7 +102,10 @@ class Profile extends Component {
     }
 
     if (rating !== '') {
-      const body = { email: userData.email, volunteer_rate: rating };
+      const body = {
+        volunteer_id: route.params.perfil.id,
+        volunteer_rate: rating,
+      };
       const response = await api.put('rates', body, {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -116,22 +113,22 @@ class Profile extends Component {
       });
     }
 
-    this.setState({ data: '' });
+    this.setState({data: ''});
 
-    this.setState({ userComment: '', data: response.data });
+    this.setState({userComment: '', data: response.data});
   };
 
   handleChat = (profile) => {
-    const { token, userData } = this.props;
+    const {token, userData} = this.props;
     console.log(userData.id, profile.id);
 
-    this.setState({ loading: true });
+    this.setState({loading: true});
 
     const chatId = nanoid();
     firestore()
       .collection('Chats')
       .doc(chatId)
-      .set({ messages: [] })
+      .set({messages: []})
       .then(() => {
         api
           .post(
@@ -145,11 +142,11 @@ class Profile extends Component {
               headers: {
                 Authorization: `Bearer ${token}`,
               },
-            }
+            },
           )
           .then((res) => {
-            const { navigation } = this.props;
-            navigation.navigate('Chat', { chatId });
+            const {navigation} = this.props;
+            navigation.navigate('Chat', {chatId});
           })
           .catch((err) => {
             Alert.alert('Falha ao criar chat backend');
@@ -161,8 +158,8 @@ class Profile extends Component {
   };
 
   render() {
-    const { rating, data, userComment, loading } = this.state;
-    const { params } = this.props.route;
+    const {rating, data, userComment, loading} = this.state;
+    const {params} = this.props.route;
 
     const number = params.perfil.rate;
 
@@ -171,7 +168,7 @@ class Profile extends Component {
     return (
       <Container>
         <Card>
-          <Info>  
+          <Info>
             <Image source={require('../../assets/images/placeholder.png')} />
             <TextContainer>
               <TitleCard>{params.perfil.name}</TitleCard>
@@ -186,7 +183,7 @@ class Profile extends Component {
               readonly
               startingValue={rate}
               ratingColor="#0039A6"
-              style={{ flexDirection: 'row' }}
+              style={{flexDirection: 'row'}}
               fractions={1}
             />
             <RatingText>{`${rate} (${params.perfil.count_avaliation})`}</RatingText>
@@ -198,7 +195,7 @@ class Profile extends Component {
             autoCapitalize="sentences"
             value={userComment}
             placeholder="O que você achou de trabalhar com essa pessoa?"
-            onChangeText={(text) => this.setState({ userComment: text })}
+            onChangeText={(text) => this.setState({userComment: text})}
             multiline
           />
           <ButtonsAvaliation>
@@ -208,7 +205,7 @@ class Profile extends Component {
                 imageSize={28}
                 startingValue={0}
                 ratingColor="#0039A6"
-                style={{ flexDirection: 'row' }}
+                style={{flexDirection: 'row'}}
                 onFinishRating={this.ratingCompleted}
                 showRating={false}
                 fractions={1}
@@ -226,10 +223,10 @@ class Profile extends Component {
         <Opinion>
           {data
             ? data.map((comments) => (
-              <CardComment>
-                <Text>{comments.comment}</Text>
-              </CardComment>
-            ))
+                <CardComment>
+                  <Text>{comments.comment}</Text>
+                </CardComment>
+              ))
             : null}
         </Opinion>
         {/* <ChatButton
