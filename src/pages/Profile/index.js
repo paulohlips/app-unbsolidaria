@@ -87,7 +87,7 @@ class Profile extends Component {
 
   handleAvaliation = async () => {
     const {userComment, rating} = this.state;
-    const {userData, token, route} = this.props;
+    const {userData, token, route, navigation} = this.props;
 
     if (userComment !== '') {
       const body = {
@@ -115,7 +115,12 @@ class Profile extends Component {
 
     this.setState({data: ''});
 
-    this.setState({userComment: '', data: response.data});
+    Alert.alert(
+      'Avaliação Enviada',
+      'Obrigado por tornar nosso sistema de voluntariado cada vez melhor!',
+      [{text: 'OK', onPress: () => navigation.navigate('Home')}],
+      {cancelable: false},
+    );
   };
 
   handleChat = (profile) => {

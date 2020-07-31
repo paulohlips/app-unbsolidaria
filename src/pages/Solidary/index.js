@@ -227,13 +227,13 @@ class Solidary extends Component {
                   onPress={() => this.handleNavigateToProfile(profile)}>
                   <StarView>
                     <Icon name="grade" size={18} color="#fff" />
-                    <StartText>{profile.rate}</StartText>
+                    <StartText>{profile.rate.toFixed(2)}</StartText>
                   </StarView>
                   <CardContentTop>
                     <Avatar
                       source={require('../../assets/images/volunteer.png')}
                     />
-                    <Name>{`${profile.name}, `}</Name>
+                    <Name>{`${profile.name} `}</Name>
                     <Number>Entrar em Contato</Number>
                   </CardContentTop>
                   <ActivitiesTitle>Posso ajudar em</ActivitiesTitle>
